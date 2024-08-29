@@ -47,7 +47,8 @@ const perguntas = [
             {
                 texto: "Discriminação é o tratamento injusto ou desigual de indivíduos com base em características como raça, gênero, orientação sexual ou deficiência. Ela viola os princípios dos direitos humanos, que garantem igualdade e não discriminação, prejudicando a dignidade e as oportunidades dessas pessoas.",
                 afirmacao: "A discriminação afeta os direitos humanos ao impedir que certos grupos tenham acesso igual a oportunidades e recursos, o que pode levar a desigualdades significativas em áreas como educação, emprego e saúde. Combater a discriminação é essencial para garantir que todos os indivíduos possam gozar de seus direitos de maneira plena e igualitária."
-        ]
+            }
+                    ]
     },
 ];
 
