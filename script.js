@@ -6,56 +6,47 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Um dia seu professor de geografia esta explicado o que é Supercontinente: supercontinente é uma enorme massa de terra composta por vários continentes unidos em uma única estrutura geológica. E te faz as seguintes perguntas: Você conhece o termo Super Continente? E porque ocorre esse evento?",
+        enunciado: "O professor do ensino médio está falando sobre direitos humanos como funcionam, onde e como funciona, esse assunto despertou o interesse nos alunos. O professor fez as seguintes perguntas. O que são direitos humanos?", 
         alternativas: [
             {
-                texto: "Não, nunca ouvi falar sobre o assunto, por que ele ocorre?",
-                afirmacao: "Você não sabia sobre o assunto, então despertou sua atenção."
-            },
-            {
-                texto: "Sim ja ouvi falar sobre o assunto, mas não sei por que ocorre",
-                afirmacao: "Você ja conhecia o assunto, mas não entendia de forma mais profunda."
+                texto: "Direitos humanos são direitos inalienáveis que pertencem a todos os seres humanos apenas pelo fato de serem humanos. Eles são universalmente reconhecidos e protegidos por leis e tratados internacionais, como a Declaração Universal dos Direitos Humanos da ONU.",
+                afirmacao: " Direitos humanos são um conjunto de princípios e normas que visam garantir a dignidade e a igualdade para todas as pessoas, independentemente de suas características pessoais, como raça, gênero, religião ou nacionalidade. Eles incluem direitos básicos como a liberdade de expressão, o direito à vida e a proteção contra discriminação."
             }
         ]
     },
     {
-        enunciado: "Ocorre devido ao movimento das placas tectônicas, impulsionado pelo calor interno da Terra. As placas se movem, colidem e se unem, formando grandes massas de terra.",
+        enunciado: "Qual é a importância da Declaração Universal dos Direitos Humanos?",
         alternativas: [
             {
-                texto: "Interessante, mas o que esse evento mudaria no nosso planeta?.",
-                afirmacao: "Buscar entender assuntos novos é essencial, principalmente porque nao sabemos se pode influenciar na nossa vida"
-            },
-            {
-                texto: "Que legal professor",
-                afirmacao:"Não pode ter demonstrado muito interesse porém o Professor continuo a explicação."
-            }
-        ]
-    },
-    {
-        enunciado: "Com o surgimento de um Supercontinete, muitas coisas iriam mudar no nosso planeta, como o clima devido a junção de várias áreas de fauna diferentes, mudar a correnteza de rios que poderia ser um perigo para diversos países, uma grande mudança geopolítica e economia devido a mudanças e a destruição de alguns recursos naturais, além de prejudicar diversos povos, e vários outros fatores.",
-        alternativas: [
-            {
-                texto: "Caramba, existem pontos positivos nesse Supercontinente?",
-                afirmacao: "Após ouvir sobre as mudanças que ocorreria, você percebe que algo assim afetaria não só você e sim irá tranformar tudo em sua volta."
+                texto: "A Declaração Universal dos Direitos Humanos é importante porque fornece uma base para legislações e políticas nacionais e internacionais que buscam garantir que todos os indivíduos possam viver com dignidade e sem medo de violação dos seus direitos básicos.",
+                afirmacao: "A Declaração Universal dos Direitos Humanos, adotada pela Assembleia Geral das Nações Unidas em 1948, estabelece um padrão global para a proteção dos direitos humanos. Ela serve como uma referência fundamental para a promoção e proteção desses direitos em todo o mundo."
             },
         ]
     },
     {
-        enunciado: "Sim existem pontos positivos, porém eles não sobressai os negativos, alguns pontos positivos seria: Novas áreas habitáveis, uma melhor exploração de alguns recursos naturais, a diversificação de culturas, uma melhor facilitação do comércio, e maiores números de cooperação global entre os povos.",
+        enunciado: "Quais são alguns exemplos de direitos civis e políticos?",
         alternativas: [
             {
-                texto: "Entendi que isso é algo que mudará complemente o nossas vidas, há um jeito de evitar isso?.",
-                afirmacao: "Mesmo sabendo que existe pontos positivos você nota que é algo bastante prejudicial, então seria bom se preparar para esse evento."
+                texto: "Outros exemplos de direitos civis e políticos são a proteção contra a detenção arbitrária, o direito à privacidade e a liberdade de reunião. Esses direitos são essenciais para a proteção das liberdades individuais e para o funcionamento de uma sociedade democrática.",
+                afirmacao: "Direitos civis e políticos incluem a liberdade de expressão, o direito ao voto, a liberdade de religião e o direito ao devido processo legal. Esses direitos asseguram que os indivíduos possam participar plenamente na vida política e social de seu país."
             },
         ]
     },
     {
-        enunciado: "A formação de supercontinentes é um processo natural e de longo prazo, determinado pela dinâmica interna da Terra. Portanto, a humanidade atualmente não tem meios práticos de evitar esse fenômeno, mas pode buscar entender e se preparar para seus efeitos.",
+        enunciado: "Como os direitos humanos são protegidos em casos de conflitos armados?",
         alternativas: [
             {
-                texto: "Querendo ou não, é impossível combater a mãe natureza. Muito obrigado professor, nunca pensaria que algo assim fosse tão impactante.",
-                afirmacao: "Percebe-se que o Supercontinente é um assunto muito pouco discutido atualmente, porém é algo que as pessoas tem que ficar ciente sobre o assunto, pois, mesmo sendo algo que pode levar diversos anos em um momento vai ocorrer e temos que estar preparados."
+                texto: "Durante conflitos armados, os direitos humanos são protegidos por convenções internacionais como as Convenções de Genebra, que estabelecem normas para a proteção de civis e combatentes, incluindo o tratamento humanitário dos prisioneiros de guerra e a proteção de pessoas não envolvidas diretamente no conflito.",
+                afirmacao: " Além das Convenções de Genebra, a proteção dos direitos humanos em conflitos armados é reforçada por tratados e acordos internacionais que visam prevenir crimes de guerra e assegurar que as partes em conflito respeitem normas mínimas de humanidade, mesmo em tempos de guerra."
             },
+        ]
+    },
+    {
+        enunciado: " O que é discriminação e como ela afeta os direitos humanos?",
+        alternativas: [
+            {
+                texto: "Discriminação é o tratamento injusto ou desigual de indivíduos com base em características como raça, gênero, orientação sexual ou deficiência. Ela viola os princípios dos direitos humanos, que garantem igualdade e não discriminação, prejudicando a dignidade e as oportunidades dessas pessoas.",
+                afirmacao: "A discriminação afeta os direitos humanos ao impedir que certos grupos tenham acesso igual a oportunidades e recursos, o que pode levar a desigualdades significativas em áreas como educação, emprego e saúde. Combater a discriminação é essencial para garantir que todos os indivíduos possam gozar de seus direitos de maneira plena e igualitária."
         ]
     },
 ];
