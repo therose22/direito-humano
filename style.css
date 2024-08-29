@@ -1,0 +1,51 @@
+:root{
+    --cor-fundo: #01080E ;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+
+}
+
+body {
+    background-image: url(../Site-IA/img/imagem.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+  font-family: "Kalam", cursive;
+  font-weight: 200;
+  font-style: normal;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+}
+
+button {
+  font-family: "Kalam", cursive;
+  font-weight: 200;
+  font-style: normal;
+  background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    box-shadow: 0 5px 50px 0 #0b0466 inset,  0 5px 50px 0 #0b0466,
+  0 5px 50px 0 #0b0466 inset,  0 5px 50px 0 #0b0466;
+}
